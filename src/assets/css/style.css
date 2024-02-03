@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --ff-primary: 'Open Sans', 'Roboto', sans-serif;
+
+} 
+
+body {
+    @apply text-base bg-slate-50;
+    font-family:  var(--ff-primary);
+
+}
+h1 {
+    @apply text-5xl text-slate-900;
+}
+h2 {
+    @apply text-4xl text-slate-800;
+}
+h3 {
+    @apply text-3xl text-slate-700;
+}
+a {
+    @apply text-sm text-slate-500;
+}
+p {
+    @apply text-slate-700;
+}
